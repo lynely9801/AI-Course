@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+  text-align: center;
+}
+.game-board {
+  display: grid;
+  gap: 12px;
+  justify-content: center;
+  margin: 32px 0 16px 0;
+}
+.player-panel {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+.player-panel .active {
+  font-weight: bold;
+  color: #1976d2;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.game-over {
+  font-size: 1.5em;
+  color: #d32f2f;
+  margin-top: 24px;
+}
