@@ -1,0 +1,21 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "",
+  "main": "useGame2048.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-swipeable": "^7.0.2"
+  },
+  "devDependencies": {
+    "vite": "^7.0.5"
+  }
+}

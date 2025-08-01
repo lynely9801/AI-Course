@@ -1,0 +1,10 @@
+.game-board {
+  background: #bbada0;
+  padding: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 20px 0;
+}
+.board-row {
+  display: flex;
+}
